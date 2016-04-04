@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto', 'Lucida Grande', Ubuntu, Arial, sans-serif;
+}
+
+section {
+    background: #ddd;
+    border: 10px solid #efefef;
+    display: block;
+    margin: auto;
+    max-width: 400px;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.loading-message {
+    background: #E23237;
+    color: #FFF;
+    margin: 10% auto;
+    padding: 6px 12px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 300px;
+}

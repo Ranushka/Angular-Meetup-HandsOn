@@ -1,0 +1,37 @@
+h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.speakers {
+    list-style: none;
+    padding: 0;
+}
+
+.speakers li {
+    border-radius: 6px 0 0 6px;
+    background: #EEE;
+    cursor: default;
+    margin-bottom: 6px;
+}
+
+.speakers li .badge {
+    background: #E23237;
+    color: #FFF;
+    display: inline-block;
+    padding: 6px 12px;
+}
+
+.speakers li .name {
+    display: inline-block;
+    padding: 6px 12px;
+}
+
+.speakers li:hover {
+    left: 2px;
+    position: relative;
+}
+
+.speakers li:hover .badge {
+    background: #B52E31;
+}

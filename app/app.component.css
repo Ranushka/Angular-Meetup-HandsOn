@@ -1,0 +1,24 @@
+h1{
+    color: #E23237;
+}
+
+a {
+    background-color: #E23237;
+    color: white;
+    font-size: 18px;
+    margin: 0 5px;
+    padding: 4px 12px;
+    text-decoration: none;  
+}
+
+a:hover{
+    background-color:#B52E31;
+}
+
+.logo, h1, nav {
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 30px;
+}

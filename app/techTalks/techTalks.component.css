@@ -1,0 +1,37 @@
+h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.techTalks {
+    list-style: none;
+    padding: 0;
+}
+
+.techTalks li {
+    border-radius: 6px 0 0 6px;
+    background: #EEE;
+    cursor: default;
+    margin-bottom: 6px;
+}
+
+.techTalks li .badge {
+    background: #E23237;
+    color: #FFF;
+    display: inline-block;
+    padding: 6px 12px;
+}
+
+.techTalks li .name {
+    display: inline-block;
+    padding: 6px 12px;
+}
+
+.techTalks li:hover {
+    left: 2px;
+    position: relative;
+}
+
+.techTalks li:hover .badge {
+    background: #B52E31;
+}
