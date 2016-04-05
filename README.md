@@ -1,4 +1,4 @@
-Embla AngularJs MeetUp 2 Hands On
+
 
 Follow the following instructions to setup the environment
 

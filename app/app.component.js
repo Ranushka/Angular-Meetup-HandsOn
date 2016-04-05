@@ -32,7 +32,11 @@ System.register(['angular2/core', 'angular2/router', './meetup.service', './tech
         execute: function() {
             AppComponent = (function () {
                 function AppComponent() {
+                    this.activeTab = 'TechTalks';
                 }
+                AppComponent.prototype.setActiveTab = function (active) {
+                    this.activeTab = active;
+                };
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'angular-meetup',

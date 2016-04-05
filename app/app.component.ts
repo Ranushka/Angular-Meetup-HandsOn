@@ -32,5 +32,12 @@ import { SpeakersComponent} from './speakers/speakers.component'
 )
 
 export class AppComponent {
-
+    activeTab : String;
+    constructor() {
+        this.activeTab = 'TechTalks'
+    }
+    setActiveTab(active: String){
+        this.activeTab = active;
+    }
+    
 }
